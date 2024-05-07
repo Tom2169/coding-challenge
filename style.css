@@ -1,0 +1,80 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'century gothic'; 
+}
+
+/* box trasparente */
+body > div{
+  height: 430px;
+  width: 700px;
+  margin: 2% auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 5% 5% 8%;
+}
+
+/* intestazione */
+div > div:first-child{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: lawngreen;
+}
+
+img{
+  height: 80px;
+}
+
+nav{
+  margin-top: 2px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  padding-bottom: 3px;
+  background-color: lawngreen;
+  text-align: center;
+}
+
+.button{
+  font-size: 10px;
+  font-family: 'verdana';
+}
+
+main > div{
+  margin: 20px 0px;
+}
+
+/* testo a fianco di checkbox */
+span:nth-child(2){
+  margin: 5px;
+  font-size: large;
+  font-weight: 600;
+}
+
+/* testo sotto la checkbox */
+span:nth-child(4){
+  font-size: small;
+}
+
+.stato{
+  margin-top: 2px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#carica-1{
+  background-color: orange;
+  width: 60%;
+}
+
+#carica-2{
+  background-color: seagreen;
+  width: 90%;
+}
+
+#carica-3{
+  background-color: brown;
+  width: 13%;
+}
