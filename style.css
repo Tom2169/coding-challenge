@@ -20,7 +20,7 @@ div > div:first-child{
   text-align: center;
   font-size: x-large;
   font-weight: bold;
-  color: lawngreen;
+  color: rgb(25, 221, 7);
 }
 
 img{
@@ -33,7 +33,7 @@ nav{
   line-height: 30px;
   width: 100%;
   padding-bottom: 3px;
-  background-color: lawngreen;
+  background-color: rgb(25, 221, 7);
   text-align: center;
 }
 
